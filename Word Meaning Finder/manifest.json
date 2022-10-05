@@ -1,0 +1,22 @@
+{
+    "name" : "Word Meaning Finder",
+    "description" : "finding the meaning of the word by hoverin on it",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "permissions" : [
+        "storage",
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action" : {
+        "default_popup" : "index.html"
+    },
+    "icons" : {
+        "16": "/images/wiktionary-64.png",
+        "32": "/images/wiktionary-128.png",
+        "48": "/images/wiktionary-128.png"
+    }
+}
